@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jul 19 22:36:32 2018
+# Process ID: 10352
+# Current directory: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1
+# Command line: vivado.exe -log ad9361_tx_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ad9361_tx_top.tcl -notrace
+# Log file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.vdi
+# Journal file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ad9361_tx_top.tcl -notrace

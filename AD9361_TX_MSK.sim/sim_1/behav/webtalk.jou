@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jul 20 10:06:42 2018
+# Process ID: 3080
+# Current directory: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/xsim.dir/ad9361_txdata_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/webtalk.log
+# Journal file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/xsim.dir/ad9361_txdata_tb_behav/webtalk/xsim_webtalk.tcl -notrace

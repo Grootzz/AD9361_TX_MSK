@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Jul 11 20:50:39 2018
+# Process ID: 1284
+# Current directory: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.runs/dds_compiler_0_synth_1
+# Command line: vivado.exe -log dds_compiler_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dds_compiler_0.tcl
+# Log file: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.runs/dds_compiler_0_synth_1/dds_compiler_0.vds
+# Journal file: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.runs/dds_compiler_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dds_compiler_0.tcl -notrace

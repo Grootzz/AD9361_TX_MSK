@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/ip/qpath_generator/qpath_generator_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qpath_generator
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_prim_wrapper_init__parameterized0
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-311] analyzing module qpath_generator_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/ip/ipath_generator/ipath_generator_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ipath_generator
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_prim_wrapper_init__parameterized0
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-311] analyzing module ipath_generator_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/ip/ipath_generator/ipath_generator_sim_netlist.v:940]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/new/ad9361_txdata.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_txdata
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/new/bb_iq_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bb_iq_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sim_1/new/ad9361_txdata_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_txdata_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/glbl.v:6]

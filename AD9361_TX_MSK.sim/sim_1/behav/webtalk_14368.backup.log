@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Jul 11 18:54:22 2018
+# Process ID: 14368
+# Current directory: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav/xsim.dir/dds_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav/webtalk.log
+# Journal file: E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav/xsim.dir/dds_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProject/AD9361_CONFIG_v1.2/AD9361_CONFIG_v1.2.sim/sim_1/behav/xsim.dir/dds_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jul 11 18:54:30 2018. For additional details about this file, please refer to the WebTalk help file at D:/XilinxVivado/Vivado/2017.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 62.035 ; gain = 0.777
+INFO: [Common 17-206] Exiting Webtalk at Wed Jul 11 18:54:30 2018...

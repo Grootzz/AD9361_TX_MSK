@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jul 19 14:51:03 2018
+# Process ID: 15844
+# Current directory: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/xsim.dir/rom_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/webtalk.log
+# Journal file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/xsim.dir/rom_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 62.195 ; gain = 1.195
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 19 14:51:10 2018...

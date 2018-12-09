@@ -1,0 +1,11 @@
+0.6
+2017.1
+Apr 14 2017
+19:10:27
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.sim/sim_1/behav/glbl.v,1492045073,verilog,,,,glbl,,,,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sim_1/new/ad9361_txdata_tb.v,1532052135,verilog,,,,ad9361_txdata_tb,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sim_1/new/rom_test.v,1531986510,verilog,,,,rom_test,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/ip/ipath_generator/ipath_generator_sim_netlist.v,1532010890,verilog,,,,ipath_generator;ipath_generator_blk_mem_gen_generic_cstr;ipath_generator_blk_mem_gen_prim_width;ipath_generator_blk_mem_gen_prim_width__parameterized0;ipath_generator_blk_mem_gen_prim_wrapper_init;ipath_generator_blk_mem_gen_prim_wrapper_init__parameterized0;ipath_generator_blk_mem_gen_top;ipath_generator_blk_mem_gen_v8_3_6;ipath_generator_blk_mem_gen_v8_3_6_synth,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/ip/qpath_generator/qpath_generator_sim_netlist.v,1532010764,verilog,,,,qpath_generator;qpath_generator_blk_mem_gen_generic_cstr;qpath_generator_blk_mem_gen_prim_width;qpath_generator_blk_mem_gen_prim_width__parameterized0;qpath_generator_blk_mem_gen_prim_wrapper_init;qpath_generator_blk_mem_gen_prim_wrapper_init__parameterized0;qpath_generator_blk_mem_gen_top;qpath_generator_blk_mem_gen_v8_3_6;qpath_generator_blk_mem_gen_v8_3_6_synth,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/new/ad9361_txdata.v,1532055624,verilog,,,,ad9361_txdata,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.srcs/sources_1/new/bb_iq_generator.v,1532053983,verilog,,,,bb_iq_generator,,,../../../AD9361_TX_MSK.srcs/sources_1/ip/clk_wiz_0,,,,,

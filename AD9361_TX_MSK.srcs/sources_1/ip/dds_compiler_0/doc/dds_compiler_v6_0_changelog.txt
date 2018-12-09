@@ -1,0 +1,173 @@
+2017.1:
+ * Version 6.0 (Rev. 13)
+ * No changes
+
+2016.4:
+ * Version 6.0 (Rev. 13)
+ * No changes
+
+2016.3:
+ * Version 6.0 (Rev. 13)
+ * General: Support for Spartan7 devices
+ * Revision change in one or more subcores
+
+2016.2:
+ * Version 6.0 (Rev. 12)
+ * No changes
+
+2016.1:
+ * Version 6.0 (Rev. 12)
+ * Fix in common c model utilities package for handling of arrays of real types in Matlab
+ * Revision change in one or more subcores
+
+2015.4.2:
+ * Version 6.0 (Rev. 11)
+ * No changes
+
+2015.4.1:
+ * Version 6.0 (Rev. 11)
+ * No changes
+
+2015.4:
+ * Version 6.0 (Rev. 11)
+ * Revision change in one or more subcores
+
+2015.3:
+ * Version 6.0 (Rev. 10)
+ * IP revision number added to HDL module, library, and include file names, to support designs with both locked and upgraded IP instances
+ * GUI PINC calculation when using System parameters in Rasterized Mode corrected
+ * Revision change in one or more subcores
+
+2015.2.1:
+ * Version 6.0 (Rev. 9)
+ * No changes
+
+2015.2:
+ * Version 6.0 (Rev. 9)
+ * Addition of MEX wrapper
+
+2015.1:
+ * Version 6.0 (Rev. 8)
+ * C model updated to increase maximum Frequency Resolution from 10kHz to 125MHz.
+ * Performance improved for cases above SFDR of 120dB or output width 20bits.
+ * C model bugfix for situation where accumulator width could differ by 1 bit from that used by the IP core.
+ * Addition of Beta support for future devices
+ * Additional parameter checking added to C model
+ * Supported devices and production status are now determined automatically, to simplify support for future devices
+ * GUI behaviour changed so that Phase_Out appears by default when both phase_generator and sin_cos lut are selected
+ * GUI changed to add explicit error message for out-of-range System clock.
+ * C models are no longer provided for 32-bit operating systems as Vivado has deprecated 32-bit OS support
+
+2014.4.1:
+ * Version 6.0 (Rev. 7)
+ * No changes
+
+2014.4:
+ * Version 6.0 (Rev. 7)
+ * Encrypted source files are concatenated together to reduce the number of files and to reduce simulator compile time
+ * Enabled out-of-context clock frequency setting by adding FREQ_HZ parameter to clock interface aclk_intf
+
+2014.3:
+ * Version 6.0 (Rev. 6)
+ * DDS_Clock_Rate maximum value limit relaxed to 1000MHz. The actual maximum achievable will be determined by configuration and device.
+ * C model smoke test run_bitacc_cmodel.c updated to correctly print negative values for sine and cosine when debug is enabled.  Also removed "using namespace std" line and replaced with "std::" where necessary.
+
+2014.2:
+ * Version 6.0 (Rev. 5)
+ * DDS_Clock_Rate maximum value of 550MHz may restrict designs on new, fast devices. Setting Parameter Entry to Hardware_parameters can be used to work around the restriction.
+
+2014.1:
+ * Version 6.0 (Rev. 4)
+ * sin_cos.vhd and sin_cos_quad_rast.vhd changed to work around simulation warnings. This change does not affect the behavior or performance of the core.
+ * C models for Windows are compiled using Microsoft Visual Studio 2012
+ * Internal device family name change, no functional changes
+ * Netlists created by write_verilog and write_vhdl are IEEE P1735 encrypted, with keys for supported simulators so that netlist simulation can still be done
+ * Enable third party synthesis tools to read encrypted netlists (but not source HDL)
+ * Support for Virtex Ultrascale devices at Pre-Production Status
+
+2013.4:
+ * Version 6.0 (Rev. 3)
+ * Fixed issue in GUI regarding illegal Phase_Angle_Values when Rasterized Mode_of_Operation was selected.
+ * Missing GUI tooltips added.
+ * GUI dependency between DSP48_Use and Latency corrected.
+ * Support for Kintex Ultrascale devices at Pre-Production Status
+
+2013.3:
+ * Version 6.0 (Rev. 2)
+ * Cosmetic GUI changes to table header row, no change in functionality
+ * Fixed issue where the behavior of 2-channel rasterized configurations produced incorrect outputs; see Xilinx Answer 56597.
+ * Fixed issue of incorrect sign extension of M_AXIS_PHASE_TDATA for Rasterized configurations.
+ * Behavioral VHDL model replaced by Encrypted RTL. For more information on this change please refer to the Migrating and Upgrading section in the Product Guide
+ * Fixed issue of C model crash when calling reset function with configurations without a phase generator.
+ * Internal standardization in source file delivery, does not change behavior
+ * Support for Automotive Artix-7, Automotive Zynq, Defense Grade Artix-7, Defense Grade Zynq and Lower Power Artix-7 devices at Production Status
+ * Added default constraints for out of context flow
+ * Added support for Cadence IES and Synopsys VCS simulators
+ * Removed C model dependency on stlport (STL Portability) library; C model now uses STL built into the compiler
+ * Windows C model DLLs are statically linked to the Windows C run-time (CRT) library, to remove the runtime dependency on MSVCRT90.dll, which can cause problems when using the C model in a Windows compiler other than Visual Studio 2008
+
+2013.2:
+ * Version 6.0 (Rev. 1)
+ * Support for Series 7 devices at Production status
+ * Repackaged IP to remove internal debug ports from GUI symbol
+ * Beta support for future devices
+ * Removing support for Defense Grade Low Power Artix7
+
+2013.1:
+ * Version 6.0
+ * Native Vivado Release
+ * Added support for Zynq
+ * Added C model
+ * Added Rasterized Mode of Operation feature
+ * Added Resync Feature
+ * Added Output Form Feature
+ * Fixed issue of AR42351. The TLAST signal in 2-channel configurations could initialize to the wrong value.
+ * Fixed issue of AR40551. The first cycle following the de-assertion of ARESETn could previously be ignored.
+ * Fixed issue where the S_AXIS_CONFIG channel could reach a lock-up state in certain mark-space patterns of ACLKEN.
+ * Fixed issue of AR51915. The demonstration testbench could give syntax errors in certain configurations.
+
+(c) Copyright 2006 - 2017 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.

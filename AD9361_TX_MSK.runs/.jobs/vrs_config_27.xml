@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="qpath_generator_synth_1" LaunchDir="E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/qpath_generator_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

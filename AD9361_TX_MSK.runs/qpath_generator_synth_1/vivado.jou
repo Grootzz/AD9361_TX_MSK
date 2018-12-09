@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jul 20 13:01:04 2018
+# Process ID: 8424
+# Current directory: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/qpath_generator_synth_1
+# Command line: vivado.exe -log qpath_generator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source qpath_generator.tcl
+# Log file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/qpath_generator_synth_1/qpath_generator.vds
+# Journal file: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/qpath_generator_synth_1\vivado.jou
+#-----------------------------------------------------------
+source qpath_generator.tcl -notrace
