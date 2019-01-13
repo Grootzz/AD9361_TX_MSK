@@ -16,5 +16,7 @@
 - Carrier frequency : 800MHz 
 - Data Rate : 1Mbps 
 ---
+Give me a star if it helps you.:joy:
+
 @author : noodle.ax@gmail.com  
 Good luck!
