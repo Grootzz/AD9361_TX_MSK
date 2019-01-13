@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jan  1 13:03:14 2019
+# Process ID: 14468
+# Current directory: E:/VivadoProject/AD9361_TX_MSK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9664 E:\VivadoProject\AD9361_TX_MSK\AD9361_TX_MSK.xpr
+# Log file: E:/VivadoProject/AD9361_TX_MSK/vivado.log
+# Journal file: E:/VivadoProject/AD9361_TX_MSK\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (5.4)' for IP 'clk_wiz_0' (customized with software release 2017.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' (customized with software release 2017.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'qpath_generator' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'qpath_generator' (customized with software release 2017.1) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ipath_generator' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'ipath_generator' (customized with software release 2017.1) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Project 1-230] Project 'AD9361_TX_MSK.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 793.262 ; gain = 100.367
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jan  1 13:05:41 2019] Launched impl_1...
+Run output will be captured here: E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 827.027 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A25181A
+set_property PROGRAM.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.runs/impl_1/ad9361_tx_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1404.930 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/VivadoProject/AD9361_TX_MSK/AD9361_TX_MSK.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A25181A
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  1 13:43:49 2019...

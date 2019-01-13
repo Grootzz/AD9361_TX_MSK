@@ -2,10 +2,8 @@
  *
  * @file 		ad9361_lut.v
  * @brief 		AD9361 chip register configuration LUT file,The working mode of the
- * 				AD9361 is FDD, 1R1T, BBPLL = 1200MHz, RFPLL = 978MHz, Rx,Tx =
- * 				{300M, 150M, 75M, 37.5M, 18.75M}. Use CMOS mode, SDR sampling.
- * @author 		Tang Tao, DSP Lab.
- * @date 		2018.7.19
+ * 				AD9361 is FDD, 1R1T, BBPLL = 1152MHz, RFPLL = 800MHz, Rx,Tx =
+ * 				{288M, 144M, 72M, 36M, 18M}. Use CMOS mode, SDR sampling.
  *
  ************************************************************************************/
 

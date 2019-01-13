@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1532062975">
-  <File Type="RDS-PROPCONSTRS" Name="ad9361_tx_top_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="ad9361_tx_top.tcl"/>
   <File Type="RDS-RDS" Name="ad9361_tx_top.vds"/>
   <File Type="RDS-UTIL" Name="ad9361_tx_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ad9361_tx_top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ad9361_tx_top.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ad9361_tx_top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ad9361_tx_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/new/ad9361_init.v">
