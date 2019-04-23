@@ -1,9 +1,4 @@
-*.vhdl linguist-language=Verilog
-*.vhd linguist-language=Verilog
-*.v linguist-language=Verilog
-*.xdc linguist-language=Verilog
-*.vho linguist-language=Verilog
-*.vh linguist-language=Verilog
+/* linguist-vendored
 
 
 
