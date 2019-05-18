@@ -1,6 +1,6 @@
 # Overview
 
-> config `ad9361` to TX mode and modulate for MSK.
+This project config AD9361 to TX mode and modulate for MSK.
 
 **Verification platform**
 
